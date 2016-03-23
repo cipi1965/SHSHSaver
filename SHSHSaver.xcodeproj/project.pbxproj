@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FEBDA85AF8BFB5568C2AD8A /* libPods-SHSHSaver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B919DA97DC915D952B8EC /* libPods-SHSHSaver.a */; };
+		F2137E9E1CA0BFE10039E3BD /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2137E9D1CA0BFE10039E3BD /* MobileDevice.framework */; };
+		F2137E9F1CA0C0AD0039E3BD /* libMobileDeviceAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2137E9C1CA0BD9D0039E3BD /* libMobileDeviceAccess.a */; };
+		F2137EAC1CA0C8340039E3BD /* PZFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F2137EAB1CA0C8340039E3BD /* PZFileBrowser.m */; };
+		F2137EAE1CA0C83C0039E3BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2137EAD1CA0C83C0039E3BD /* libz.tbd */; };
+		F2799C3A1CA0991200C6E538 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F2799C391CA0991200C6E538 /* Utils.m */; };
+		F2799C3D1CA09ACC00C6E538 /* SHSH.m in Sources */ = {isa = PBXBuildFile; fileRef = F2799C3C1CA09ACC00C6E538 /* SHSH.m */; };
 		F2998F8F1CA093BF00C80541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2998F8E1CA093BF00C80541 /* AppDelegate.m */; };
 		F2998F921CA093BF00C80541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2998F911CA093BF00C80541 /* main.m */; };
 		F2998F951CA093BF00C80541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2998F941CA093BF00C80541 /* ViewController.m */; };
@@ -14,7 +21,29 @@
 		F2998F9A1CA093BF00C80541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2998F981CA093BF00C80541 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F2137E9B1CA0BD9D0039E3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2137E971CA0BD9D0039E3BD /* MobileDeviceAccess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = MobileDeviceAccess;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1B6B919DA97DC915D952B8EC /* libPods-SHSHSaver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHSHSaver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C37C4FC89C5E92C2B6923E /* Pods-SHSHSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSHSaver.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHSHSaver/Pods-SHSHSaver.release.xcconfig"; sourceTree = "<group>"; };
+		5D4CF93A23781DAB70EC1CF1 /* Pods-SHSHSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHSHSaver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHSHSaver/Pods-SHSHSaver.debug.xcconfig"; sourceTree = "<group>"; };
+		F2137E971CA0BD9D0039E3BD /* MobileDeviceAccess.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MobileDeviceAccess.xcodeproj; path = ../MobileDeviceAccess/MobileDeviceAccess.xcodeproj; sourceTree = "<group>"; };
+		F2137E9D1CA0BFE10039E3BD /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = ../../../../System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = "<group>"; };
+		F2137EAA1CA0C8340039E3BD /* PZFileBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZFileBrowser.h; sourceTree = "<group>"; };
+		F2137EAB1CA0C8340039E3BD /* PZFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZFileBrowser.m; sourceTree = "<group>"; };
+		F2137EAD1CA0C83C0039E3BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F2799C381CA0991200C6E538 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F2799C391CA0991200C6E538 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		F2799C3B1CA09ACC00C6E538 /* SHSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSH.h; sourceTree = "<group>"; };
+		F2799C3C1CA09ACC00C6E538 /* SHSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSH.m; sourceTree = "<group>"; };
 		F2998F8A1CA093BF00C80541 /* SHSHSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSHSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2998F8D1CA093BF00C80541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2998F8E1CA093BF00C80541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,17 +60,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2137EAE1CA0C83C0039E3BD /* libz.tbd in Frameworks */,
+				F2137E9F1CA0C0AD0039E3BD /* libMobileDeviceAccess.a in Frameworks */,
+				F2137E9E1CA0BFE10039E3BD /* MobileDevice.framework in Frameworks */,
+				6FEBDA85AF8BFB5568C2AD8A /* libPods-SHSHSaver.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212B45248802FC1B7D786533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2137EAD1CA0C83C0039E3BD /* libz.tbd */,
+				F2137E9D1CA0BFE10039E3BD /* MobileDevice.framework */,
+				1B6B919DA97DC915D952B8EC /* libPods-SHSHSaver.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE253839289BD46BE526CB9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CF93A23781DAB70EC1CF1 /* Pods-SHSHSaver.debug.xcconfig */,
+				39C37C4FC89C5E92C2B6923E /* Pods-SHSHSaver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2137E981CA0BD9D0039E3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2137E9C1CA0BD9D0039E3BD /* libMobileDeviceAccess.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F2998F811CA093BF00C80541 = {
 			isa = PBXGroup;
 			children = (
+				F2137E971CA0BD9D0039E3BD /* MobileDeviceAccess.xcodeproj */,
 				F2998F8C1CA093BF00C80541 /* SHSHSaver */,
 				F2998F8B1CA093BF00C80541 /* Products */,
+				EE253839289BD46BE526CB9A /* Pods */,
+				212B45248802FC1B7D786533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +119,16 @@
 		F2998F8C1CA093BF00C80541 /* SHSHSaver */ = {
 			isa = PBXGroup;
 			children = (
+				F2137EAA1CA0C8340039E3BD /* PZFileBrowser.h */,
+				F2137EAB1CA0C8340039E3BD /* PZFileBrowser.m */,
 				F2998F8D1CA093BF00C80541 /* AppDelegate.h */,
 				F2998F8E1CA093BF00C80541 /* AppDelegate.m */,
 				F2998F931CA093BF00C80541 /* ViewController.h */,
 				F2998F941CA093BF00C80541 /* ViewController.m */,
+				F2799C3B1CA09ACC00C6E538 /* SHSH.h */,
+				F2799C3C1CA09ACC00C6E538 /* SHSH.m */,
+				F2799C381CA0991200C6E538 /* Utils.h */,
+				F2799C391CA0991200C6E538 /* Utils.m */,
 				F2998F961CA093BF00C80541 /* Assets.xcassets */,
 				F2998F981CA093BF00C80541 /* Main.storyboard */,
 				F2998F9B1CA093BF00C80541 /* Info.plist */,
@@ -83,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2998F9E1CA093BF00C80541 /* Build configuration list for PBXNativeTarget "SHSHSaver" */;
 			buildPhases = (
+				6BD857C7B21B2EE0028B5288 /* Check Pods Manifest.lock */,
 				F2998F861CA093BF00C80541 /* Sources */,
-				F2998F871CA093BF00C80541 /* Frameworks */,
 				F2998F881CA093BF00C80541 /* Resources */,
+				F2998F871CA093BF00C80541 /* Frameworks */,
+				3789DC98A57DD092870A5834 /* Embed Pods Frameworks */,
+				A13F223B98575BACE8DF3916 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,12 +193,28 @@
 			mainGroup = F2998F811CA093BF00C80541;
 			productRefGroup = F2998F8B1CA093BF00C80541 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F2137E981CA0BD9D0039E3BD /* Products */;
+					ProjectRef = F2137E971CA0BD9D0039E3BD /* MobileDeviceAccess.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F2998F891CA093BF00C80541 /* SHSHSaver */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F2137E9C1CA0BD9D0039E3BD /* libMobileDeviceAccess.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMobileDeviceAccess.a;
+			remoteRef = F2137E9B1CA0BD9D0039E3BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F2998F881CA093BF00C80541 /* Resources */ = {
@@ -140,14 +228,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3789DC98A57DD092870A5834 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHSHSaver/Pods-SHSHSaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD857C7B21B2EE0028B5288 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A13F223B98575BACE8DF3916 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHSHSaver/Pods-SHSHSaver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2998F861CA093BF00C80541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2799C3D1CA09ACC00C6E538 /* SHSH.m in Sources */,
 				F2998F951CA093BF00C80541 /* ViewController.m in Sources */,
 				F2998F921CA093BF00C80541 /* main.m in Sources */,
 				F2998F8F1CA093BF00C80541 /* AppDelegate.m in Sources */,
+				F2137EAC1CA0C8340039E3BD /* PZFileBrowser.m in Sources */,
+				F2799C3A1CA0991200C6E538 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,11 +385,23 @@
 		};
 		F2998F9F1CA093BF00C80541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4CF93A23781DAB70EC1CF1 /* Pods-SHSHSaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SHSHSaver",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = SHSHSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileDeviceAccess/build/Debug",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = it.cipi1965.SHSHSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -258,11 +409,23 @@
 		};
 		F2998FA01CA093BF00C80541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C37C4FC89C5E92C2B6923E /* Pods-SHSHSaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SHSHSaver",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = SHSHSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileDeviceAccess/build/Debug",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = it.cipi1965.SHSHSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -287,6 +450,7 @@
 				F2998FA01CA093BF00C80541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

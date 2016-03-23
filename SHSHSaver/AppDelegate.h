@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong, nonatomic) NSUserDefaults *userDefaults;
+@property (weak) IBOutlet NSMenuItem *inealCheck;
 
 @end
 
