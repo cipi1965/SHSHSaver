@@ -1,0 +1,3 @@
+[submodule "MobileDeviceAccess"]
+	path = MobileDeviceAccess
+	url = https://github.com/cipi1965/MobileDeviceAccess.git
